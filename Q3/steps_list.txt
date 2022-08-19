@@ -1,0 +1,16 @@
+Login AWS account -->Aws console
+
+then, search "IAM : Manage access to AWS resource"
+
+then, go to access management
+then, click on users
+then, click on add users
+I entered user_name as kiranmankar
+Add credential type--password in my case .
+
+next, Attach existing policies directly
+attach policy named as AmazonEC2FullAccess and AWS_lambdaFullAccess
+then,
+add key and value then create the user
+Now use the credential provided and login to the user named "dev-iot-elevate"
+You must get an error while update the password itself
